@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="container  p-3">
+        <h2 class="text-secondary my-5 ">Bookmarker</h2>
+        <div class="bg-info p-5">
+            <form >
+                <div class="group text-center mb-4 ">
+                    <label for="siteName" class="mb-2 fw-bold"> Site Name</label>
+                    <input type="text" placeholder="Bookmark Name" id="siteName" class="form-control">
+                </div>
+                
+                <div class="group text-center mb-4">
+                    <label for="siteUrl" class="mb-2 fw-bold"> Site URL</label>
+                    <input type="text" placeholder="website URL" id="siteUrl" class="form-control">
+                </div>
+                <div class="alert alert-primary d-none" role="alert" id="alert"> A simple primary alert—check it out!</div>
+                <div class="m-auto w-25">
+                    <button class="btn btn-primary w-100 " id="addbookmark" type="button" disabled>Add Bookmark</button>
+                </div>
+            </form>
+        </div>
+
+            <div class="search w-75 m-auto my-5">
+                <input type="text" id="search" placeholder="Search....." class="form-control">
+            </div>
+
+
+        <div class="mt-5 ">
+            <table class="table table-striped">
+                <thead>
+                    <th>Site Name</th>
+                    <th>Visit</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+
+        
+    </div>
+<a href="" class=""></a>
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

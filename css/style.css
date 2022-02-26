@@ -1,0 +1,13 @@
+.error{
+    background: linear-gradient( to right , #22a07d , #7aff0085) !important;
+    padding: 16px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    display: none;
+}
+.error p{
+    font-size: 18px;
+    color: white;
+    letter-spacing: 2px;
+    
+}
